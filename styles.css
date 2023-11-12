@@ -13,7 +13,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: url('background-image-stars.jpg') no-repeat;
+    background: url('background-image-sky.png') no-repeat;
     background-size: cover;
     background-position: center;
 }
@@ -21,12 +21,12 @@ body {
 .wrapper {
     width: 420px;
     background: transparent;
-    color: #fff;
+    color: black;
     border-radius: 10px;
     padding: 30px 40px;
     border: 2px solid rgba(255,255,255, .2);
     box-shadow: 0 0 10px rgba(0, 0, 0, .2);
-    backdrop-filter: blur(20px);
+    backdrop-filter: blur(40px);
 }
 
 .wrapper h1 {
@@ -47,15 +47,15 @@ body {
     background: transparent;
     border: none;
     outline: none;
-    border: 2px solid rgba(255,255,255, .2);
+    border: 2px solid rgba(255,255,255, .3);
     border-radius: 40px;
     font-size: 16px;
     color: #fff;
     padding: 20px 45px 20px 20px;
 }
 
-.input-box input::placer {
-    color: #fff;
+.input-box input::placeholder {
+    color: rgba(0, 0, 0, .6);
 }
 
 .input-box i {
@@ -75,13 +75,13 @@ body {
 }
 
 .remember-forgot label input {
-    accent-color: #fff;
+    accent-color: black;
     margin-right: 3px;
 
 }
 
 .remember-forgot a {
-    color: #fff;
+    color: black;
     text-decoration: none;
 }
 
@@ -110,7 +110,7 @@ body {
 }
 
 .register-link p a {
-    color: #fff;
+    color: black;
     text-decoration:  none;
     font-weight: 600;
 }
