@@ -1,5 +1,24 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
 
+:root {
+    --fs-header: 36px;
+    --fs-medium: 16px;
+    --fs-small: 14.5px;
+    --pd-card: 30px 40px;
+}
+
+@media (max-width: 400px)
+{
+    :root {
+
+        --fs-header: 32px;
+        --fs-medium: 14px;
+        --fs-small: 12px;
+        --pd-card: 20px 13px;
+    }
+}
+
+
 * {
     font-family: "Poppins", sans-serif;
     margin: 0;
@@ -19,18 +38,18 @@ body {
 }
 
 .wrapper {
-    width: 420px;
+    width: min(420px, 95vw);
     background: transparent;
     color: black;
     border-radius: 10px;
-    padding: 30px 40px;
+    padding: var(--pd-card);
     border: 2px solid rgba(255,255,255, .2);
     box-shadow: 0 0 10px rgba(0, 0, 0, .2);
     backdrop-filter: blur(40px);
 }
 
 .wrapper h1 {
-    font-size: 36px;
+    font-size: var(--fs-header);
     text-align: center;    
 }
 
@@ -49,7 +68,7 @@ body {
     outline: none;
     border: 2px solid rgba(255,255,255, .3);
     border-radius: 40px;
-    font-size: 16px;
+    font-size: var(--fs-medium);
     color: #fff;
     padding: 20px 45px 20px 20px;
 }
@@ -70,7 +89,7 @@ body {
 .wrapper .remember-forgot {
     display: flex;
     justify-content: space-between;
-    font-size: 14.5px;
+    font-size: var(--fs-small);
     margin: -15px 0 15px;
 }
 
@@ -98,13 +117,13 @@ body {
     border-radius: 40px;
     box-shadow: 0 0 10px rgba(0, 0, 0, .1);
     cursor: pointer;
-    font-size: 16px;
+    font-size: var(--fs-medium);
     color: #333;
     font-weight: 600;
 }
 
 .wrapper .register-link {
-    font-size: 14.5px;
+    font-size: var(--fs-small);
     text-align: center;
     margin: 20px 0 15px;
 }
