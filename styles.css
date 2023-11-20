@@ -58,6 +58,8 @@ body {
     height: 50px;
     margin: 50px 0;
     position: relative;
+    text-align: center;
+
 }
 
 .input-box input {
@@ -68,9 +70,13 @@ body {
     border: 2px solid rgba(255,255,255, .4);
     border-radius: 30px;
     font-size: var(--fs-medium);
-    color: #fff;
+    color: black;
     padding: 20px 45px 20px 20px;
+    text-align: center;
+
 }
+
+
 
 
 .input-box input::placeholder {
