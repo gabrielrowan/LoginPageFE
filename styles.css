@@ -109,6 +109,7 @@ body {
 .remember-forgot a:hover {
     text-decoration: underline;
 }
+       
 
 .login-card .btn {
     width: 100%;
@@ -144,3 +145,9 @@ body {
 .register-link p a:hover {
     text-decoration: underline;
 }
+
+a:focus, input[type=checkbox]:focus {
+    outline: 2px solid rgba(0, 0, 0, .4);
+    border-radius: 2px;
+}
+
