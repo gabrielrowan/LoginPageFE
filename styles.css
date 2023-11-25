@@ -5,7 +5,6 @@
     --fs-medium: 16px;
     --fs-small: 14.5px;
     --pd-card: 30px 40px;
-    --fcs-color: rgba(0, 0, 0, .4);
 }
 
 @media (max-width: 400px)
@@ -78,7 +77,7 @@ body {
 }
 
 .input-box input:focus {
-    background-color: rgb(254,241,251, 0.85);
+    background-color: rgb(255, 255, 255, 0.75);
 }
 
 .input-box i {
