@@ -6,7 +6,7 @@
 
 Adapatable to desktop and mobile screen sizes
 
-```
+```css
 :root {
     --fs-header: 36px;
     --fs-medium: 16px;
@@ -31,7 +31,7 @@ Adapatable to desktop and mobile screen sizes
 * Colour contrast ratio meets AA and AAA web standard
 * Focus styles on all form elements
 
-```
+```css
 .login-card .btn:focus {
     background-color: rgb(254,241,251, .9);
     color: black;
@@ -43,7 +43,7 @@ Adapatable to desktop and mobile screen sizes
 * `Labels` used in html instead of placeholder text
 * `aria-required=true` used on inputs so that required field is read out to screen readers
 
-```
+```html
  <label for="username">Email address</label>
  <input type="text" id="username" aria-required="true">
  <i class='bx bxs-user' alt="User Icon"></i>
