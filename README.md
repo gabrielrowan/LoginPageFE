@@ -33,6 +33,9 @@ Responsiveness achieved by redefining font and card padding variables:
 ## Accessibility
 
 * Colour contrast ratio meets AA and AAA web standard
+
+![Screenshot of colour contrast ratio for login form getting AA and AAA rating](https://github.com/gabrielrowan/LoginPageFE/assets/86267314/f156f507-e5db-42a4-ab3b-273ead73d74c)
+  
 * Focus styles on all form elements
 
 ![Focus background style in effect on email address input field](https://github.com/gabrielrowan/LoginPageFE/assets/86267314/59d6ad56-744c-4ef3-af34-31022e3c61c6)
