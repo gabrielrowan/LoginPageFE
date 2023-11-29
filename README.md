@@ -4,7 +4,7 @@
 
 ## Responsive Design
 
-*Adapatable to desktop and mobile screen sizes
+* Adapatable to desktop and mobile screen sizes
 
 ![Image of login page on Galaxy Fold screen size](https://github.com/gabrielrowan/LoginPageFE/assets/86267314/275da9c1-3c15-45b2-8cbb-0c1ac8cc1136)
 
