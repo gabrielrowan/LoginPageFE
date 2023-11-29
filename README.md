@@ -1,6 +1,6 @@
 # Login Page
 
-![image](https://github.com/gabrielrowan/LoginPageFE/assets/86267314/ae13d5a8-ed93-46ea-9483-471b38859a7b)
+![Image of login page](https://github.com/gabrielrowan/LoginPageFE/assets/86267314/4834fd7a-3263-4431-a860-9158493c634e)
 
 ## Responsive Design
 
