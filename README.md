@@ -1,11 +1,51 @@
-# LoginPage
+# Login Page
 
-Front End for Login Form using HTML and CSS
+![image](https://github.com/gabrielrowan/LoginPageFE/assets/86267314/ae13d5a8-ed93-46ea-9483-471b38859a7b)
 
-## First Version of Login Page
+## Responsive Design
 
-![LoginPage-PurpleStarsBackground](https://github.com/gabrielrowan/LoginPageFE/assets/86267314/dfc59f3f-f1ef-4573-b643-1f2a344dd28f)
+Adapatable to desktop and mobile screen sizes
 
-## Second Version of Login Page
+```
+:root {
+    --fs-header: 36px;
+    --fs-medium: 16px;
+    --fs-small: 14.5px;
+    --pd-card: 30px 40px;
+}
 
-![LoginPage-PinkColourScheme](https://github.com/gabrielrowan/LoginPageFE/assets/86267314/b793637b-494e-4fcf-b185-1dc0ebecbc9f)
+@media (max-width: 400px)
+{
+    :root {
+
+        --fs-header: 32px;
+        --fs-medium: 14px;
+        --fs-small: 12px;
+        --pd-card: 20px 13px;
+    }
+}
+```
+
+## Accessibility
+
+* Colour contrast ratio meets AA and AAA web standard
+* Focus styles on all form elements
+
+```
+.login-card .btn:focus {
+    background-color: rgb(254,241,251, .9);
+    color: black;
+    box-shadow: 0 0 10px rgba(163,152,246 .4);
+}
+```
+
+* `alt` text on icons
+* `Labels` used in html instead of placeholder text
+* `aria-required=true` used on inputs so that required field is read out to screen readers
+
+```
+ <label for="username">Email address</label>
+ <input type="text" id="username" aria-required="true">
+ <i class='bx bxs-user' alt="User Icon"></i>
+```
+  
