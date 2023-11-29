@@ -45,7 +45,7 @@ Adapatable to desktop and mobile screen sizes
 ```
 
 * `alt` text on icons
-* `Labels` used in html instead of placeholder text
+* `label` tags used in html instead of placeholder text
 * `aria-required=true` used on inputs so that required field is read out to screen readers
 
 ```html
