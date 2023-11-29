@@ -34,6 +34,8 @@ Adapatable to desktop and mobile screen sizes
 * Colour contrast ratio meets AA and AAA web standard
 * Focus styles on all form elements
 
+![Focus background style in effect on email address input field](https://github.com/gabrielrowan/LoginPageFE/assets/86267314/59d6ad56-744c-4ef3-af34-31022e3c61c6)
+
 ```css
 .login-card .btn:focus {
     background-color: rgb(254,241,251, .9);
